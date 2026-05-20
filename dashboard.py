@@ -1,15 +1,12 @@
 import streamlit as st
 import pandas as pd
 
-# 1. EMPOWER THE PAGE LAYOUT
 st.set_page_config(
     page_title="ODA Cloud Migration: Sovereignty Pre-Flight Audit",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
-# 2. CACHE & LOAD DATABASE
 @st.cache_data
 def load_audit_data():
     return pd.read_csv('vodafone_migration_audit.csv')
@@ -20,31 +17,26 @@ except FileNotFoundError:
     st.error("❌ 'vodafone_migration_audit.csv' not found. Please run your digital_bouncer.py script first to generate the dataset!")
     st.stop()
 
-# 3. INTERACTIVE SIDEBAR CONTROL PANEL
 st.sidebar.header("🛡️ Governance Control Center")
 st.sidebar.markdown("Use these filters to audit specific vectors across the Open Digital Architecture footprint.")
 
-# Filter by Source Region
 source_filter = st.sidebar.multiselect(
     "Select Source Infrastructure:",
     options=df['source_node'].unique(),
     default=df['source_node'].unique()
 )
 
-# Filter by Data Classification
 data_filter = st.sidebar.multiselect(
     "Select Data Type Sensitivity:",
     options=df['data_type'].unique(),
     default=df['data_type'].unique()
 )
 
-# Apply Interactive Filters to DataFrame
 filtered_df = df[
     (df['source_node'].isin(source_filter)) & 
     (df['data_type'].isin(data_filter))
 ]
 
-# 4. MAIN DASHBOARD HEADER
 st.title("🛡️ ODA Cloud Migration: Sovereignty Pre-Flight Audit")
 st.markdown("""
 **Automated Data Lineage & Policy Enforcement Framework** This operational control panel monitors the staging environment during the decoupled migration of legacy monolithic IT stacks to cloud-native ODA frameworks. 
@@ -53,7 +45,6 @@ It programmatically intercepts and quarantines cross-border data routing violati
 
 st.divider()
 
-# 5. CORE TELEMETRY METRICS
 total_scanned = len(filtered_df)
 safe_transfers = len(filtered_df[filtered_df['sovereignty_status'] == 'Safe'])
 violations_prevented = total_scanned - safe_transfers
@@ -65,17 +56,14 @@ m3.metric("🚨 Boundary Violations Intercepted", f"{violations_prevented:,}", d
 
 st.divider()
 
-# 6. DUAL-COLUMN VISUAL ANALYSIS
 col_viz, col_log = st.columns([1, 1])
 
 with col_viz:
     st.subheader("📊 Policy Compliance Distribution")
     if total_scanned > 0:
-        # Compute dynamic aggregation for the chart
         status_chart_data = filtered_df['sovereignty_status'].value_counts().reset_index()
         status_chart_data.columns = ['Sovereignty Status', 'Total Interceptions']
         
-        # Display built-in native bar chart
         st.bar_chart(
             data=status_chart_data, 
             x='Sovereignty Status', 
