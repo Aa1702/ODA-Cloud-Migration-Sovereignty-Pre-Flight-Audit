@@ -1,0 +1,101 @@
+flow_id,source_node,destination_node,data_type,sovereignty_status
+FLOW-001,EU_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,Safe
+FLOW-002,UK_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-003,UK_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-004,EU_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-005,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-006,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-007,UK_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-008,EU_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-009,EU_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-010,EU_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-011,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-012,EU_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-013,EU_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,Safe
+FLOW-014,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-015,EU_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-016,UK_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-017,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-018,UK_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-019,UK_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-020,EU_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: EU Data leaving EU
+FLOW-021,UK_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-022,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-023,UK_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-024,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-025,UK_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-026,UK_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-027,EU_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,Safe
+FLOW-028,EU_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: EU Data leaving EU
+FLOW-029,EU_Legacy_Server,UK_Sovereign_Cloud,PII_Customer_Data,VIOLATION: EU Data leaving EU
+FLOW-030,UK_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-031,EU_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-032,EU_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-033,EU_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-034,UK_Legacy_Server,UK_Sovereign_Cloud,PII_Customer_Data,Safe
+FLOW-035,EU_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-036,UK_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-037,UK_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-038,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-039,EU_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-040,EU_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-041,EU_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-042,EU_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: EU Data leaving EU
+FLOW-043,EU_Legacy_Server,UK_Sovereign_Cloud,PII_Customer_Data,VIOLATION: EU Data leaving EU
+FLOW-044,UK_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-045,UK_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-046,EU_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,Safe
+FLOW-047,UK_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-048,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-049,EU_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-050,UK_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-051,UK_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-052,EU_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,Safe
+FLOW-053,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-054,UK_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-055,EU_Legacy_Server,UK_Sovereign_Cloud,PII_Customer_Data,VIOLATION: EU Data leaving EU
+FLOW-056,EU_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,Safe
+FLOW-057,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-058,UK_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-059,EU_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-060,EU_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-061,UK_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-062,EU_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-063,EU_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,Safe
+FLOW-064,EU_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,Safe
+FLOW-065,UK_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-066,UK_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-067,EU_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-068,EU_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-069,EU_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-070,EU_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-071,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-072,EU_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: EU Data leaving EU
+FLOW-073,UK_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-074,UK_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-075,EU_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-076,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-077,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-078,EU_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-079,EU_Legacy_Server,UK_Sovereign_Cloud,PII_Customer_Data,VIOLATION: EU Data leaving EU
+FLOW-080,UK_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-081,EU_Legacy_Server,Global_Analytics_Lake,PII_Customer_Data,VIOLATION: EU Data leaving EU
+FLOW-082,EU_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,Safe
+FLOW-083,EU_Legacy_Server,UK_Sovereign_Cloud,PII_Customer_Data,VIOLATION: EU Data leaving EU
+FLOW-084,EU_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-085,UK_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-086,UK_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-087,UK_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-088,UK_Legacy_Server,UK_Sovereign_Cloud,PII_Customer_Data,Safe
+FLOW-089,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-090,UK_Legacy_Server,EU_Sovereign_Cloud,PII_Customer_Data,VIOLATION: UK Data leaving UK
+FLOW-091,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-092,EU_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-093,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-094,EU_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-095,EU_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-096,EU_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-097,UK_Legacy_Server,EU_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
+FLOW-098,UK_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-099,EU_Legacy_Server,Global_Analytics_Lake,Anonymous_Network_Telemetry,Safe
+FLOW-100,UK_Legacy_Server,UK_Sovereign_Cloud,Anonymous_Network_Telemetry,Safe
